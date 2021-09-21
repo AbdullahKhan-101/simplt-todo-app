@@ -1,0 +1,24 @@
+.main{
+    border: 2px solid gray;
+    width: 200px;
+    margin: 100px auto;
+    /* height: 499px; */
+}
+input{
+    width: 98.5%;
+    outline: 1px solid gray;
+    border: none;
+}
+button.clear{
+    width: 100%;
+}
+.btn{
+    /* border: 1px solid brown; */
+    margin: 1px;
+    width: 45px;
+}
+.half{
+    margin-top: 12px;
+    margin: 1px;
+    width: 96px;
+}

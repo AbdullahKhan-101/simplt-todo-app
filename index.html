@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      text-align: center;
+      margin-top: 90px;
+    }
+    li {
+      display: flex;
+      margin: 0 auto;
+      margin-top: 20px;
+      justify-content: left;
+      width: 25.5%;
+    }
+    hr {
+      width: 25%;
+      margin-top: 10px;
+    }
+    button {
+      margin-left: 5px;
+    }
+    .btn {
+      color: red;
+    }
+  </style>
+  <body>
+    <div>
+      <input
+        itemid="todo-item"
+        type="text"
+        placeholder="Enter todo..."
+        id="todo-item"
+      />
+      <button onclick="AddTodo()">Add Item</button>
+      <button onclick="dlelteAll()">Delete All</button>
+
+      <hr />
+
+      <ul id="list"></ul>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
